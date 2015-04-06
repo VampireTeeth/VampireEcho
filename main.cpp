@@ -2,9 +2,13 @@
 #include <unistd.h>
 #include <cstdlib>
 
-#include "vampire_echo.hpp"
+#include "./vampire_echo.hpp"
 
-using namespace std;
+using std::endl;
+using std::cout;
+using std::cerr;
+using std::atoi;
+using std::exit;
 
 int main(int argc, char * argv[]) {
 
