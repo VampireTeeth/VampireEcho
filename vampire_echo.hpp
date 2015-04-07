@@ -17,4 +17,5 @@ private:
   fd_set rdset;
   fd_set wtset;
 };
+
 #endif
